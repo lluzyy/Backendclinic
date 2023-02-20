@@ -9,7 +9,7 @@ app.use(cors())
 const mysql = require('mysql2');
 const { Router } = require('express')
 const connection = mysql.createConnection(
- /* {
+  /*{
     host: 'localhost',
     user: 'root',
     database: 'clinic',
@@ -420,9 +420,9 @@ require('dotenv').config()
 
 
 cloudinary.config({
-    cloud_name: "dd5mmjakh",
-    api_key: "286357125488246",
-    api_secret: "SUg5i8kYPVOhVevhi0WylyyQzss"
+    cloud_name: "dvxcksqsw",
+    api_key: "299151882736284",
+    api_secret: "mU8WqYpf9s1pWS01q41xT2f44eM"
 });
 
 //Create a server
